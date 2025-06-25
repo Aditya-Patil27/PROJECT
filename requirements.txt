@@ -1,0 +1,38 @@
+# FastAPI and web server
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+jinja2==3.1.2
+
+# OCR and image processing
+easyocr==1.7.0
+opencv-python==4.8.1.78  
+pillow==10.1.0
+
+# BERT and transformers for language detection and autocorrection  
+torch>=2.0.0
+transformers>=4.21.0
+tokenizers>=0.13.0
+
+# Machine learning and data processing
+scikit-learn==1.3.2
+pandas==2.1.4
+numpy<2.0
+tqdm>=4.64.0
+
+
+
+# Utilities
+python-dotenv==1.0.0
+aiofiles==23.2.1
+
+# Added for BERT and handwriting recognition
+transformers
+
+# Added for TrOCR support
+sentencepiece
+
+# Local development
+cd "C:\Users\app27\OneDrive\Desktop\New folder"
+venv\Scripts\activate
+pip install pytesseract
